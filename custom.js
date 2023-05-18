@@ -12,7 +12,7 @@ function injectDynamicCssToChild() {
   var ymFrameHead = window.frames["ymIframe"].document.getElementsByTagName("head")[0];
   var modularStyles = document.createElement('style');
   modularStyles.type = 'text/css';
-  var css = '@font-face {font-family: "Formus"; src: url("/fonts/Faruma(2).otf") format("otf");} body {font-family: "Formus" !imporant;} .from-them div{font-family: "Formus" !imporant;}';
+  var css = '@font-face {font-family: "Formus"; src: url("/fonts/Faruma(2).otf") format("otf");} body {font-family: "Formus";}';
   if (modularStyles.styleSheet) {
     modularStyles.styleSheet.cssText = css;
   } else {
