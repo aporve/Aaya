@@ -22,3 +22,5 @@ function injectDynamicCssToChild() {
 }
 
 
+//remove color
+
