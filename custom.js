@@ -13,7 +13,9 @@ function injectDynamicCssToChild() {
   var modularStyles = document.createElement('style');
   modularStyles.type = 'text/css';
   // var css = '@font-face {font-family: "Formus"; src: url("/fonts/Faruma(2).otf") format("otf");} ';
-  var css = '@font-face {font-family: "Faruma"; src: url("/fonts/Faruma(2).otf") format("otf");} body {font-family: "Faruma";} html {font-family: "Faruma";} .from-them div {font-family: "Faruma";} #chatBoxMainContainer button.option {font-family: "Faruma";}';
+  var css = '@font-face {font-family: "Faruma"; src: url("/fonts/Faruma(2).otf") format("otf");} body {font-family: "Faruma";} html {font-family: "Faruma";} .from-them div {font-family: "Faruma";}';
+
+  // var css = '@font-face {font-family: "Faruma"; src: url("/fonts/Faruma(2).otf") format("otf");} body {font-family: "Faruma";} html {font-family: "Faruma";} .from-them div {font-family: "Faruma";} #chatBoxMainContainer button.option {font-family: "Faruma";}';
   if (modularStyles.styleSheet) {
     modularStyles.styleSheet.cssText = css;
   } else {
